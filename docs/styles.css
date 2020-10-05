@@ -36,7 +36,7 @@ text-transform: uppercase;
 .foodtype-top-box {
   display: flex;
   float: left;
-  background-color: ;
+  background-color:;
   align-content: center;
   padding-left: 5px;
   padding-right: 5px;
@@ -49,8 +49,8 @@ text-transform: uppercase;
 
   .foodtype-top-box p {
     width: auto;
-    font-size: small;
-    text-align: justify;
+    font-size: medium;
+    text-align: left;
     background-color:;
     font-family: Open Sans, sans-serif;
     font-weight: 300;
@@ -111,6 +111,7 @@ hr{
   float: center;
   padding-left: 7.5%;
   padding-right: 7.5%;
+  background-color: ;
 }
 
 .bottom {
@@ -127,7 +128,8 @@ h2{
 
 .bottom-foodlists {
   display: flex;
-  background-color: ;
+  background-color:  ;
+
 }
 
   .bottom-foodlists img {
@@ -143,6 +145,8 @@ h2{
       flex:3;
       margin: 5px;
       display: flex;
+      width: flex;
+      height: auto;
     }
 
     .bottom-foodlists li {
@@ -153,7 +157,7 @@ h2{
       font-family: Open Sans, sans-serif;
       font-weight: 300;
       font-size: medium;
-      height: auto;
+      min-width: ;
     }
 
     .bottom-foodlists h5{
@@ -164,7 +168,7 @@ h2{
   background-color: #dddcdb;
   font-family: Open Sans, sans-serif;
   padding: 5px; 
-  font-size: 10px;
+  font-size: 14px;
 }
   h4 {
     font-family: Open Sans, sans-serif;

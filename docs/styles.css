@@ -5,7 +5,11 @@ h1 {
   font-family: Open Sans Condensed, sans-serif;
   text-transform: uppercase; 
   font-weight: 700;
-  font-size: 75px;
+  font-size: 90px;
+}
+
+body {
+  padding: 5px;
 }
 
 #intro {
@@ -14,23 +18,40 @@ font-size: large;
 font-weight: 300;
 }
 
+#other-resources {
+  background-color: #dddcdb;
+  padding: 10px; 
+  margin: 20px;
+}
+
+#other-resources li{
+font-size: medium;
+}
+
+#other-resources h4{
+font-size: medium;
+text-transform: uppercase;
+}
+
 .foodtype-top-box {
   display: flex;
   float: left;
-  background-color: green;
+  background-color: ;
   align-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
   .foodtype-top-box img {
-    width: 95%;
+    width: 100%;
     border-radius: 50%;
   }
 
   .foodtype-top-box p {
-    width: 95%;
-    font-size: medium;
+    width: auto;
+    font-size: small;
     text-align: justify;
-    background-color:white;
+    background-color:;
     font-family: Open Sans, sans-serif;
     font-weight: 300;
   }  
@@ -38,9 +59,11 @@ font-weight: 300;
 .foodtypes {
     padding: 1%;
     margin: 1%;
-    background-color: grey;
+    background-color: ;
     align-self: top;
     height: auto;
+    flex:1;
+    width: auto;
   }
 
   .foodtypes h3 {
@@ -78,8 +101,9 @@ font-weight: 300;
   }
 
 hr{
-  width: 80%;
+  width: 100%;
   color: black;
+  border: 1px solid black;
 }
 
 .bottom-container {
@@ -90,7 +114,7 @@ hr{
 }
 
 .bottom {
-  background-color: purple;
+  background-color: ;
   padding: 1%;
 }
 
@@ -103,7 +127,7 @@ h2{
 
 .bottom-foodlists {
   display: flex;
-  background-color: aqua;
+  background-color: ;
 }
 
   .bottom-foodlists img {
@@ -115,20 +139,25 @@ h2{
     }
 
     .bottom-foodlists ul {
-      background-color: green;
+      background-color: ;
       flex:3;
       margin: 5px;
       display: flex;
     }
 
     .bottom-foodlists li {
-      background: pink;
+      background: ;
       padding: 2%;
       margin: 3%;
       width: 100%;
       font-family: Open Sans, sans-serif;
       font-weight: 300;
       font-size: medium;
+      height: auto;
+    }
+
+    .bottom-foodlists h5{
+      font-weight:bold;
     }
 
 #footer {

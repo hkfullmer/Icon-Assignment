@@ -162,6 +162,7 @@ h2{
       background-color: lightgrey;
       width: 50%;
       height: auto;
+      vertical-align: text-top;
     }
 
     .bottom-foodlists h5{
@@ -171,7 +172,7 @@ h2{
 #footer {
   background-color: lightgrey;
   font-family: Open Sans, sans-serif;
-  padding: 5px; 
+  padding: 10px; 
   font-size: 14px;
 }
   h4 {
